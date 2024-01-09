@@ -16,7 +16,8 @@ el código y utiliza un archivo JSON llamado 'libros.json' para almacenar la inf
 '''
 import os
 import ui.mainMenu as mainmenu
-import ui.menuLibros as libros
+import ui.menuLibros as mLibro
+import func.corefile as cf
 
 libros = {
 
@@ -28,7 +29,9 @@ def main():
 
     while isActiveApp:
         if op == 1:
-            libros.
+            mLibro.generarLibroMenu()
+            cf.AddData(libros)
+
 
 
 

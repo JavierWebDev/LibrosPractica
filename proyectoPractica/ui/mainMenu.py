@@ -9,6 +9,7 @@ def mainMenu()->int:
     '''
 
     try:
+        print(header)
         for i, item in enumerate(opcionesPrincipales):
             print(f"{i+1}. {item}")
         op = int(input(" >) "))
