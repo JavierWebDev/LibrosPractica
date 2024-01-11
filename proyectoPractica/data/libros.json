@@ -1,0 +1,44 @@
+{
+    "001": {
+        "ID": "001",
+        "nombre": "a",
+        "autor": "aa",
+        "fechaPublicacion": "aaa"
+    },
+    "002": {
+        "ID": "002",
+        "nombre": "a",
+        "autor": "aa",
+        "fechaPublicacion": "aaa"
+    },
+    "003": {
+        "ID": "003",
+        "nombre": "a",
+        "autor": "aa",
+        "fechaPublicacion": "aaa"
+    },
+    "004": {
+        "ID": "004",
+        "nombre": "a",
+        "autor": "aa",
+        "fechaPublicacion": "aaa"
+    },
+    "005": {
+        "ID": "005",
+        "nombre": "a",
+        "autor": "aa",
+        "fechaPublicacion": "aaa"
+    },
+    "006": {
+        "ID": "006",
+        "nombre": "aaa",
+        "autor": "aaaa",
+        "fechaPublicacion": "aaaa"
+    },
+    "007": {
+        "ID": "007",
+        "nombre": "a",
+        "autor": "aa",
+        "fechaPublicacion": "aaa"
+    }
+}

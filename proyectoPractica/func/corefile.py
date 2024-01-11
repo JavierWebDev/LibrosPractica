@@ -49,3 +49,9 @@ def checkFile(*param):
         # Si se proporcionaron parámetros, crea un nuevo archivo con el primer parámetro
         if len(param):
             NewFile(data[0])
+
+def delData(*param):
+    data = list(param)
+    data[0].pop(data[1])
+    NewFile(data[0])
+

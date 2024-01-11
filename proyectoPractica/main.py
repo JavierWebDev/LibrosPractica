@@ -17,20 +17,22 @@ el código y utiliza un archivo JSON llamado 'libros.json' para almacenar la inf
 import os
 import ui.mainMenu as mainmenu
 import ui.menuLibros as mLibro
-import func.corefile as cf
 
-libros = {
-
-}
+libros = {}
 
 def main():
     isActiveApp = True
-    op = mainmenu.mainMenu()
 
     while isActiveApp:
+        op = mainmenu.mainMenu()
         if op == 1:
-            mLibro.generarLibroMenu()
-            cf.AddData(libros)
+            mLibro.generarLibroMenu(libros)
+        elif op == 2:
+            mLibro.editLibro()
+        elif op == 3:
+            mLibro.delLibro(libros)
+        elif op == 4:
+            mLibro.mostrarLibro()
 
 
 
